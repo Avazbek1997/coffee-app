@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 555;
+    src: url(./karla/Karla-Regular.ttf);
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
+.text h2{
+    width: 578px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color:#1D1F2E;
+    text-align: center;
+    margin: auto;
+    padding-top: 123px;
+    font-family:555;
+}
+.text p{
+    font-weight: 400;
+    padding-top: 16px;
+    line-height: 28px;
+    color:#1D1F2E 70%;
+    font-size: 16px;
+    width: 658px;
+    margin: auto;
+    font-family:555;
+}
+.text button{
+    width: 133px;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid rgba(41, 35, 34, 0.199);
+    color: #A25F4B;
+    font-size: 15px;
+    line-height: 27px;
+    background-color: transparent;
+    font-family:555;
+
+}
+.text h4{
+    padding-top: 101px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    color: #1D1F2E;
+    font-family:555;
+    
+}

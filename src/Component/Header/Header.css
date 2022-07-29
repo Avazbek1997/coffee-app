@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 555;
+    src: url(./karla/Karla-Regular.ttf);
+}.head{
+    width: 100%;
+}
+.navbar{
+    width: 70%;
+    margin:auto;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   align-items: center;
+    justify-content: space-around;
+}
+.navbar ul li{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    font-size: 14px;
+    line-height: 25px;
+   
+    font-family:555;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid blue;
+}
+.navbar img{
+    width:110px ;
+    height: 24px;
+}
+.asosiy{
+    width: 1380px;
+    margin: auto;
+    text-align: center;
+  
+    background: url(./images/great.png ) center 540px /cover;
+}
+.asosiy h5{
+    color: white;
+    padding-top: 160px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family:555;
+}
+.asosiy h1{
+    Font-size: 47px;
+    line-height: 109%;
+     color: #fff; 
+     font-weight: 400;
+     font-family:555;
+     padding-top: 10px;
+
+}
+.asosiy p{
+    padding-top: 10px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 400;
+    font-family:555;
+}
+.asosiy button{
+    width: 230px ;
+    height: 20px;
+    margin-top: 48px;
+    background-color: #fff;
+    color:  #1D1F2E;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 168px;
+    text-transform: uppercase;
+    font-family:555;
+}
